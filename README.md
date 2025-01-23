@@ -1,117 +1,122 @@
-# dev-setup-scripts
-A collection of scripts to automate the installation and configuration of development tools on Linux systems. These scripts are designed to save time and ensure consistency across environments.
+Here’s an updated **README.md** with a visually appealing and detailed file structure section:
 
 ---
 
 ```markdown
-# Dev Setup Scripts
+# Dev Environment Setup
 
-A collection of scripts to automate the installation and configuration of development tools on Linux systems. These scripts are designed to save time and ensure consistency across environments.
+A comprehensive collection of scripts to automate the installation and configuration of development tools, frameworks, and programming languages on Linux systems. These scripts simplify and standardize the setup process for diverse development environments.
 
 ---
 
 ## 🚀 **Features**
 
-This repository includes scripts to install:
-- **ASDF Version Manager**: Manage multiple versions of programming languages and tools.
-- **Erlang**: A functional programming language and runtime for building scalable systems.
-- **Elixir**: A programming language built on top of Erlang.
-- **Docker and Docker Compose**: Tools for developing, shipping, and running applications in containers.
-- More tools coming soon!
+This repository includes scripts for installing and configuring:
+- **Programming Languages**: Python, PHP, Node.js, Ruby, etc.
+- **Frameworks**: Laravel, Django, Flask, etc.
+- **Development Tools**: Docker, Docker Compose, ASDF, Git, etc.
+- Additional tools and frameworks will be added regularly!
 
 ---
 
-## 📂 **Repository Structure**
+## 📂 **File Structure**
+
+The repository is organized into directories for better clarity and scalability:
 
 ```
-dev-setup-scripts/
-├── install_asdf.sh               # Script to install ASDF version manager
-├── install_erlang_elixir.sh      # Script to install Erlang and Elixir via ASDF
-├── install_docker.sh             # Script to install Docker and Docker Compose
-├── install_nodejs.sh             # Example: Script to install Node.js (optional)
-├── install_python.sh             # Example: Script to install Python (optional)
-├── README.md                     # Documentation for the repository
+dev-environment-setup/
+├── languages/                     # Scripts for programming languages
+│   ├── install_python.sh          # Install Python
+│   ├── install_php.sh             # Install PHP
+│   ├── install_nodejs.sh          # Install Node.js
+│   ├── install_ruby.sh            # Install Ruby
+│   └── install_go.sh              # Install Go
+├── frameworks/                    # Scripts for frameworks and libraries
+│   ├── install_laravel.sh         # Install Laravel (PHP Framework)
+│   ├── install_django.sh          # Install Django (Python Framework)
+│   ├── install_flask.sh           # Install Flask (Python Micro-framework)
+│   └── install_expressjs.sh       # Install Express.js (Node.js Framework)
+├── tools/                         # Scripts for development tools
+│   ├── install_docker.sh          # Install Docker and Docker Compose
+│   ├── install_asdf.sh            # Install ASDF Version Manager
+│   ├── install_git.sh             # Install Git
+│   └── install_vscode.sh          # Install Visual Studio Code
+├── databases/                     # Scripts for database management systems
+│   ├── install_postgresql.sh      # Install PostgreSQL
+│   ├── install_mysql.sh           # Install MySQL
+│   └── install_mongodb.sh         # Install MongoDB
+├── cloud/                         # Scripts for cloud tools and CLI utilities
+│   ├── install_aws_cli.sh         # Install AWS CLI
+│   ├── install_azure_cli.sh       # Install Azure CLI
+│   └── install_gcloud_cli.sh      # Install Google Cloud CLI
+├── testing/                       # Scripts for testing tools
+│   ├── install_jest.sh            # Install Jest (JavaScript Testing Framework)
+│   ├── install_pytest.sh          # Install Pytest (Python Testing Framework)
+│   └── install_postman.sh         # Install Postman
+├── README.md                      # Documentation for the repository
+└── LICENSE                        # License information
 ```
 
 ---
 
-## 🔧 **Usage Instructions**
+## 🔧 **How to Use**
 
 ### 1. Clone the Repository
-Clone this repository to your local machine:
 ```bash
-git clone https://github.com/your-username/dev-setup-scripts.git
-cd dev-setup-scripts
+git clone https://github.com/your-username/dev-environment-setup.git
+cd dev-environment-setup
 ```
 
-### 2. Make Scripts Executable
-Ensure the scripts you want to run have executable permissions:
+### 2. Navigate to the Desired Directory
+Each category of scripts is stored in its respective subdirectory. For example:
+- To install a programming language:
+  ```bash
+  cd languages
+  ```
+- To install a development tool:
+  ```bash
+  cd tools
+  ```
+
+### 3. Make Scripts Executable
+Before running a script, ensure it has executable permissions:
 ```bash
-chmod +x *.sh
+chmod +x <script-name>.sh
 ```
 
-### 3. Run the Scripts
-Execute the scripts for the tools you need. For example:
-
-#### Install ASDF Version Manager
+### 4. Run the Script
+Run the script to install the desired tool, framework, or language. For example:
 ```bash
-./install_asdf.sh
-```
-
-#### Install Erlang and Elixir
-```bash
-./install_erlang_elixir.sh
-```
-
-#### Install Docker and Docker Compose
-```bash
-./install_docker.sh
-```
-
-#### (Optional) Install Node.js
-```bash
-./install_nodejs.sh
+./install_python.sh
 ```
 
 ---
 
 ## 📝 **Verification**
 
-After running a script, verify the installation by checking the versions of the installed tools. Examples:
+After running a script, you can verify the installation by checking the version of the installed tool. Example commands:
 
-### Check ASDF Installation
-```bash
-asdf --version
-```
-
-### Check Erlang and Elixir
-```bash
-erl -version
-elixir --version
-```
-
-### Check Docker and Docker Compose
-```bash
-docker --version
-docker compose version
-```
+- **Python**:
+  ```bash
+  python3 --version
+  ```
+- **Docker**:
+  ```bash
+  docker --version
+  docker compose version
+  ```
+- **Laravel**:
+  ```bash
+  laravel --version
+  ```
 
 ---
 
 ## ⚠️ **Important Notes**
 
-1. **System Requirements**: These scripts are tested on Debian/Ubuntu-based systems. Adapt them as needed for other Linux distributions.
-2. **Custom Versions**: Update the scripts to install specific versions of tools by modifying the version variables inside each script.
-3. **Reboot/Logout**: Some changes (e.g., adding a user to the Docker group) require you to log out and log back in, or reboot the system.
-
----
-
-## 🛠️ **Adding More Scripts**
-
-To contribute additional setup scripts, follow these steps:
-1. Create a new `.sh` script file (e.g., `install_<tool>.sh`).
-2. Use bash scripting best practices for error handling and user feedback.
-3. Update this `README.md` file to include your new script in the **Repository Structure** section.
+1. **System Compatibility**: These scripts are designed for Debian/Ubuntu-based Linux distributions. For other operating systems, you may need to modify the scripts.
+2. **Customization**: You can specify the versions of tools and frameworks to install by editing the version variables in the scripts.
+3. **Reboot/Logout**: After running some scripts (e.g., Docker installation), you may need to log out and log back in or reboot for changes to take effect.
 
 ---
 
@@ -123,7 +128,19 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## 🙋‍♂️ **Support**
 
-If you encounter any issues or have questions, feel free to open an issue in the repository or contact me via email at `kangwac3@gmail.com`.
+If you encounter any issues or have questions:
+- Open an issue in the repository.
+- Contact me via email at `kangwac3@gmail.com`.
+
+---
+
+## 🌟 **Contributing**
+
+Contributions are welcome! To add a new script:
+1. Fork the repository.
+2. Add your script in the appropriate subdirectory (or create a new subdirectory if needed).
+3. Test your script thoroughly.
+4. Submit a pull request with a detailed description of your changes.
 
 ---
 
@@ -132,10 +149,10 @@ Happy coding! 🚀
 
 ---
 
-### **How to Use**
+### **How to Use the File Structure**
 
-1. Replace `chimfwembeC` with your GitHub username.
-2. Update the **Support** section with your contact information.
-3. Add more scripts to the repository as needed, following the outlined structure.
+- Each subdirectory (e.g., `languages/`, `frameworks/`) organizes scripts by type for clarity and scalability.
+- This structure ensures easy navigation, even as more scripts are added over time.
+- You can further expand the categories or create new ones (e.g., `CI-CD/` for continuous integration tools) as needed.
 
-This structure is flexible and scalable for multiple scripts while keeping things organized. Let me know if you want to tweak it further!
+Let me know if you’d like further refinements!
