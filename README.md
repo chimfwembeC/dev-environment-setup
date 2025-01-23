@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # Dev Environment Setup
 
+=======
+>>>>>>> 20513794b5fc5e0149e7c73ee3f2c7b54072d8df
 Here’s an updated **README.md** with a visually appealing and detailed file structure section:
 
 ---
@@ -26,7 +29,10 @@ This repository includes scripts for installing and configuring:
 The repository is organized into directories for better clarity and scalability:
 
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> 20513794b5fc5e0149e7c73ee3f2c7b54072d8df
 dev-environment-setup/
 ├── languages/                     # Scripts for programming languages
 │   ├── install_python.sh          # Install Python
@@ -58,7 +64,10 @@ dev-environment-setup/
 │   └── install_postman.sh         # Install Postman
 ├── README.md                      # Documentation for the repository
 └── LICENSE                        # License information
+<<<<<<< HEAD
 
+=======
+>>>>>>> 20513794b5fc5e0149e7c73ee3f2c7b54072d8df
 ```
 
 ---
@@ -72,9 +81,13 @@ cd dev-environment-setup
 ```
 
 ### 2. Navigate to the Desired Directory
+<<<<<<< HEAD
 
 Each category of scripts is stored in its respective subdirectory. For example:
 
+=======
+Each category of scripts is stored in its respective subdirectory. For example:
+>>>>>>> 20513794b5fc5e0149e7c73ee3f2c7b54072d8df
 - To install a programming language:
   ```bash
   cd languages
@@ -85,17 +98,25 @@ Each category of scripts is stored in its respective subdirectory. For example:
   ```
 
 ### 3. Make Scripts Executable
+<<<<<<< HEAD
 
 Before running a script, ensure it has executable permissions:
 
+=======
+Before running a script, ensure it has executable permissions:
+>>>>>>> 20513794b5fc5e0149e7c73ee3f2c7b54072d8df
 ```bash
 chmod +x <script-name>.sh
 ```
 
 ### 4. Run the Script
+<<<<<<< HEAD
 
 Run the script to install the desired tool, framework, or language. For example:
 
+=======
+Run the script to install the desired tool, framework, or language. For example:
+>>>>>>> 20513794b5fc5e0149e7c73ee3f2c7b54072d8df
 ```bash
 ./install_python.sh
 ```
@@ -139,7 +160,10 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## 🙋‍♂️ **Support**
 
 If you encounter any issues or have questions:
+<<<<<<< HEAD
 
+=======
+>>>>>>> 20513794b5fc5e0149e7c73ee3f2c7b54072d8df
 - Open an issue in the repository.
 - Contact me via email at `kangwac3@gmail.com`.
 
@@ -148,7 +172,10 @@ If you encounter any issues or have questions:
 ## 🌟 **Contributing**
 
 Contributions are welcome! To add a new script:
+<<<<<<< HEAD
 
+=======
+>>>>>>> 20513794b5fc5e0149e7c73ee3f2c7b54072d8df
 1. Fork the repository.
 2. Add your script in the appropriate subdirectory (or create a new subdirectory if needed).
 3. Test your script thoroughly.
@@ -157,7 +184,10 @@ Contributions are welcome! To add a new script:
 ---
 
 Happy coding! 🚀
+<<<<<<< HEAD
 
+=======
+>>>>>>> 20513794b5fc5e0149e7c73ee3f2c7b54072d8df
 ```
 
 ---
@@ -169,6 +199,7 @@ Happy coding! 🚀
 - You can further expand the categories or create new ones (e.g., `CI-CD/` for continuous integration tools) as needed.
 
 Let me know if you’d like further refinements!
+<<<<<<< HEAD
 ```
 
 
@@ -190,3 +221,5 @@ This repository includes scripts for installing and configuring:
 ## 📂 **File Structure**
 
 The repository is organized into directories for better clarity and scalability:
+=======
+>>>>>>> 20513794b5fc5e0149e7c73ee3f2c7b54072d8df
