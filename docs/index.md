@@ -10,7 +10,7 @@ hero:
       link: /guide/getting-started
     - theme: alt
       text: View on GitHub
-      link: https://github.com/yourusername/dev-environment-setup
+      link: https://github.com/chimfwembeC/dev-environment-setup
 
 features:
   - title: Multi-Platform Support
