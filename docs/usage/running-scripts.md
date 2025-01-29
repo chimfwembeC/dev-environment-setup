@@ -3,9 +3,10 @@
 ## General Usage
 
 ### Basic Installation
+
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/dev-environment-setup.git
+git clone https://github.com/chimfwembeC/dev-environment-setup.git
 cd dev-environment-setup
 
 # Run the platform-specific setup script
@@ -16,6 +17,7 @@ cd dev-environment-setup
 ## Platform-Specific Instructions
 
 ### Ubuntu/Linux
+
 ```bash
 # Make script executable
 chmod +x scripts/ubuntu/setup.sh
@@ -28,6 +30,7 @@ chmod +x scripts/ubuntu/setup.sh
 ```
 
 ### Windows
+
 ```powershell
 # Enable script execution
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -40,6 +43,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 ### macOS
+
 ```bash
 # Make script executable
 chmod +x scripts/macos/setup.sh
@@ -54,12 +58,14 @@ chmod +x scripts/macos/setup.sh
 ## Script Options
 
 ### Common Flags
+
 - `--help`: Display help information
 - `--verbose`: Show detailed output
 - `--no-confirm`: Skip confirmation prompts
 - `--skip-verify`: Skip verification steps
 
 ### Examples
+
 ```bash
 # Run with verbose output
 ./scripts/ubuntu/setup.sh --verbose
@@ -74,6 +80,7 @@ chmod +x scripts/macos/setup.sh
 ## Running Individual Components
 
 ### Programming Languages
+
 ```bash
 # Install Python
 ./scripts/[platform]/languages/python.sh
@@ -86,6 +93,7 @@ chmod +x scripts/macos/setup.sh
 ```
 
 ### Development Tools
+
 ```bash
 # Install Git
 ./scripts/[platform]/tools/git.sh
@@ -98,6 +106,7 @@ chmod +x scripts/macos/setup.sh
 ```
 
 ### Databases
+
 ```bash
 # Install PostgreSQL
 ./scripts/[platform]/databases/postgresql.sh
