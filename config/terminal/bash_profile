@@ -1,0 +1,22 @@
+# ~/.bash_profile
+
+# Enable color support of ls and add handy aliases
+if [ -x "$(command -v ls)" ]; then
+  alias ls='ls --color=auto'
+  alias ll='ls -l'
+  alias la='ls -A'
+  alias l='ls -CF'
+fi
+
+# Custom prompt (show username, host, and current directory)
+PS1='[\u@\h \W]\$ '
+
+# Enable Git branch name in prompt
+source ~/.bash/git-prompt.sh
+
+# Load NVM (Node Version Manager)
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# Set PATH for custom directories
+export PATH="$HOME/bin:$PATH"

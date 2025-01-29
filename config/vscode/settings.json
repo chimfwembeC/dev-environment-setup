@@ -1,0 +1,30 @@
+{
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true
+    },
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "python"
+    ],
+    "prettier.requireConfig": true,
+    "editor.formatOnSave": true,
+    "python.pythonPath": "python3",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true
+}

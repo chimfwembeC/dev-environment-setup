@@ -1,0 +1,11 @@
+[
+    "ms-python.python",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "GitHub.copilot",
+    "ms-vscode.vscode-node-azure-pack",
+    "eamodio.gitlens",
+    "visualstudioexptteam.vscodeintellicode",
+    "redhat.vscode-yaml",
+    "vscoss.vscode-ansible"
+]

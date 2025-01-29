@@ -1,0 +1,19 @@
+# ~/.zshrc
+
+# Set the Zsh prompt
+PROMPT='%B%F{cyan}%n@%m%f%b:%F{yellow}%~%f$ '
+
+# Enable color support for ls and define useful aliases
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias la='ls -A'
+
+# Load NVM (Node Version Manager)
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# Custom functions for convenience
+alias v="code ."  # Open VSCode in the current directory
+
+# Add useful directories to the PATH
+export PATH="$HOME/bin:$PATH"

@@ -1,0 +1,21 @@
+[user]
+  name = chimfwembeC
+  email = chimfwembek@kamstar.tech
+
+[core]
+  editor = "code --wait"
+  autocrlf = input
+  excludesfile = ~/.gitignore_global
+
+[merge]
+  tool = vimdiff
+
+[push]
+  default = simple
+
+[alias]
+  st = status
+  co = checkout
+  br = branch
+  cm = commit
+  lg = log --oneline --graph --decorate --all
