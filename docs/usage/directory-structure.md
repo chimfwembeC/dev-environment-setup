@@ -35,18 +35,21 @@ dev-environment-setup/
 ## Directory Descriptions
 
 ### Scripts Directory
+
 - `scripts/`: Contains all installation scripts organized by platform
   - `ubuntu/`: Ubuntu-specific installation scripts
   - `windows/`: Windows-specific PowerShell scripts
   - `macos/`: macOS-specific installation scripts
 
 ### Configuration Directory
+
 - `config/`: Contains default configurations for various tools
   - `vscode/`: VS Code settings and extensions
   - `git/`: Git configuration templates
   - `terminal/`: Terminal profiles and settings
 
 ### Documentation Directory
+
 - `docs/`: Contains all project documentation
   - `guide/`: Getting started and feature documentation
   - `installation/`: Platform-specific installation guides
