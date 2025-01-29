@@ -1,15 +1,15 @@
 {
   "name": "dev-environment-setup",
   "version": "1.0.0",
-  "description": "![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)",
-  "main": "index.js",
+  "description": "Documentation for automated development environment setup scripts",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.45",
+    "vue": "^3.4.0"
+  }
 }
