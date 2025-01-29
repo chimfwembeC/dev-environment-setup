@@ -1,3 +1,5 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 # Dev Environment Setup
 
 A comprehensive collection of scripts to automate the installation and configuration of development tools, frameworks, and programming languages on both Linux (Ubuntu) and Windows systems. These scripts simplify and standardize the setup process for diverse development environments.
